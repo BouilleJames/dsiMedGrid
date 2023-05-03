@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>DSI méd</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <img src="img/logo_DSI_MED.png" alt="DSI logo">
+            <nav class="desktop">
+                <ul>
+                    <li><a href="#">NOS SENSIBILISATIONS</a></li>
+                    <!-- <li><a href="#">NOUS RECRUTONS</a></li> -->
+                    <li><a href="#">NOS MÉTIERS</a></li>
+                    <li><a href="#">VOS AVANTAGES</a></li>
+                    <li><a href="#">NOUS CONNAÎTRE</a></li>
+                    <li><a href="#">ACTUALITÉS</a></li>
+                    <li><a href="#">NOUS CONTACTER</a></li>
+                </ul>
+            </nav>
+            <label class="mobile">
+                <input type="checkbox" name="menu_burger" id="checkBurger">
+                <span class="burger">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </span>
+                <ul class="menuBurger">
+                    <li><a href="#">NOS SENSIBILISATIONS</a></li>
+                    <!-- <li><a href="#">NOUS RECRUTONS</a></li> -->
+                    <li><a href="#">NOS MÉTIERS</a></li>
+                    <li><a href="#">VOS AVANTAGES</a></li>
+                    <li><a href="#">NOUS CONNAÎTRE</a></li>
+                    <li><a href="#">ACTUALITÉS</a></li>
+                    <li><a href="#">NOUS CONTACTER</a></li>
+                </ul>
+
+            </label>
+        </div>
+    </header>
+    <!--*******************************************************************************************************
+**************************************** BANNIERE ***************************************************
+********************************************************************************************************/ -->
+    <div class="banniere">
+        <div class="presentation">
+            <div id="textLeft">
+                <h1><span>CDA </span>SOPHIA 2023</h1>
+                <p>
+                    Notre organisation peut aider les employeurs et
+                    les employés à naviguer sur les questions liées au
+                    handicap au travail et à trouver des solutions pour
+                    créer un environnement de travail plus inclusif.
+                </p>
+            </div>
+            <div id="imageRight">
+                <img src="img/reunion.jpg" alt="réunion">
+            </div>
+        </div>
+    </div>
+    <!--*******************************************************************************************************
+**************************************** SECTION CARTES ***************************************************
+********************************************************************************************************/ -->
+    <div class="sectionCard">
+        <div class="allcards">
+            <div class="card dsiorange">
+                <h3>Qu'est-ce qu'une entreprise adapté</h3>
+            </div>
+            <div class="card dsiblue">
+                <h3>le rôle du référent handicap</h3>
+            </div>
+            <div class="card dsigreen">
+                <h3>méthode d'integration</h3>
+            </div>
+            <div class="card dsigrey">
+                <h3>particularité du recrutement</h3>
+            </div>
+        </div>
+        <div class="titleCenter">
+            <h2>Découvrez nos formations</h2>
+        </div>
+        <div class="allcards">
+            <div class="card dsiblue">
+                <h3>le maintien dans l'emploi</h3>
+            </div>
+            <div class="card dsigrey">
+                <h3>l'oeth</h3>
+            </div>
+            <div class="card dsiorange">
+                <h3>le handicap au travail</h3>
+            </div>
+            <div class="card dsigreen">
+                <h3>le handicap</h3>
+            </div>
+        </div>
+    </div>
+    <div class="charts">
+        <img class="desktopImg" src="img/charts.jpg" alt="diagramme de DSI">
+        <img class="mobileImg" src="img/charts_mobile.jpg" alt="diagramme de DSI">
+    </div>
+    <!--*******************************************************************************************************
+**************************************** FOOTER *********************************************************
+********************************************************************************************************/ -->
+    <footer>
+        <div id="contact">
+            <h3>CONTACTEZ NOUS</h3>
+            <div class="adresse">
+                <p>80 Route des Lucioles</p>
+                <p>Les Espaces de Sophia</p>
+                <p>Batiment K</p>
+                <p>06560</p>
+            </div>
+            <p class="tel">Tél: 05 62 74 10 00</p>
+            <a href="#">accuiel@dsi-ap.com</a>
+            <div class="allicon">
+                <div class="social icon">
+                    <i class="fa-brands fa-facebook-f fa-2x"></i>
+                </div>
+                <div class="social icon">
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                </div>
+                <div class="social icon">
+                    <i class="fa-brands fa-linkedin-in fa-2x"></i>
+                </div>
+            </div>
+        </div>
+        <div id="verticalBar"></div>
+        <div id="formulaire">
+            <form action="/action.php">
+                <label for="fname">Nom Prénom:</label><br>
+                <input class="champ" type="text" id="fname" name="name" value=""><br><br>
+                <label for="lname">Entreprise:</label><br>
+                <input class="champ" type="text" id="lname" name="enterprise" value=""><br><br>
+                <label for="lemail">Email:</label><br>
+                <input class="champ" type="text" id="lemail" name="mail" value=""><br><br><br>
+                <input class="btnSend" type="submit" value="Envoyer">
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-sclalable="0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <title>DsiMéditerannée</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav">
+            
+            <ul class="desktop">
+                <li class="nav-item"><img class="logo" src="/logoDsiMed.png" alt="logo Dsi Méditerannée" /></li>
+                <li class="nav-item1"><a class="nav-links" href="#">nos sensibilisations</a></li>
+                <li class="nav-item2"><a class="nav-links" href="#">nos métiers</a></li>
+                <li class="nav-item3"><a class="nav-links" href="#">vos avantages</a></li>
+                <li class="nav-item4"><a class="nav-links" href="#">nous connaitre</a></li>
+                <li class="nav-item5"><a class="nav-links" href="#">actualités</a></li>
+                <li class="nav-item6"><a class="nav-links" href="#">contacter</a></li>
+            </ul>
+        </div>
+    </nav>
+    <label for="toggle" class="navbar-toggler">
+        <input type="checkbox" id="toggle" role="button">
+        <span class="burger">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </span> -->
+        <!-- <nav class="navbar">
+            <div class="img"><img class="logo" src="/logoDsiMed.png" alt="logo Dsi Méditerannée" /></div>
+            <ul class="desktop">
+                <li class="nav-item"><a class="nav-links" href="#">nos sensibilisations</a>
+                    <ul class="submenu">
+                        <li><a href="#">sub1</a></li>
+                        <li><a href="#">sub2</a></li>
+                        <li><a href="#">sub3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-links" href="#">nos métiers</a>
+                    <ul class="submenu">
+                        <li><a href="#">sub1</a></li>
+                        <li><a href="#">sub2</a></li>
+                        <li><a href="#">sub3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-links" href="#">vos avantages</a>
+                    <ul class="submenu">
+                        <li><a href="#">sub1</a></li>
+                        <li><a href="#">sub2</a></li>
+                        <li><a href="#">sub3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-links" href="#">nous connaitre</a>
+                    <ul class="submenu">
+                        <li><a href="#">sub1</a></li>
+                        <li><a href="#">sub2</a></li>
+                        <li><a href="#">sub3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-links" href="#">actualités</a>
+                    <ul class="submenu">
+                        <li><a href="#">sub1</a></li>
+                        <li><a href="#">sub2</a></li>
+                        <li><a href="#">sub3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-links" href="#">contacter</a>
+                    <ul class="submenu">
+                        <li><a href="#">sub1</a></li>
+                        <li><a href="#">sub2</a></li>
+                        <li><a href="#">sub3</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+        <label for="toggle" class="navbar-toggler">
+            <input type="checkbox" id="toggle" role="button">
+            <span class="burger">
+                <i class="fa-solid fa-bars fa-2x"></i>
+            </span>
+            <span class="menuBurger">
+                <ul class="mobile">
+                    <li class="nav-item"><a class="nav-links" href="#">nos sensibilisations</a>
+                        <ul class="submenu">
+                            <li><a href="#">sub1</a></li>
+                            <li><a href="#">sub2</a></li>
+                            <li><a href="#">sub3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-links" href="#">nos métiers</a>
+                        <ul class="submenu">
+                            <li><a href="#">sub1</a></li>
+                            <li><a href="#">sub2</a></li>
+                            <li><a href="#">sub3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-links" href="#">vos avantages</a>
+                        <ul class="submenu">
+                            <li><a href="#">sub1</a></li>
+                            <li><a href="#">sub2</a></li>
+                            <li><a href="#">sub3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-links" href="#">nous connaitre</a>
+                        <ul class="submenu">
+                            <li><a href="#">sub1</a></li>
+                            <li><a href="#">sub2</a></li>
+                            <li><a href="#">sub3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-links" href="#">actualités</a>
+                        <ul class="submenu">
+                            <li><a href="#">sub1</a></li>
+                            <li><a href="#">sub2</a></li>
+                            <li><a href="#">sub3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-links" href="#">contacter</a>
+                        <ul class="submenu">
+                            <li><a href="#">sub1</a></li>
+                            <li><a href="#">sub2</a></li>
+                            <li><a href="#">sub3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </span> -->
+            <!-- <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span> -->
+        </label>
+    <!-- <header class="banniere">
+        <div class="cda">
+            <div id="floatLeft">
+                <h1 class="colorText"><span>CDA </span>SOPHIA 2023</h1>
+                <p class="colorText">
+                    Notre organisation peut aider les employeurs et
+                    les employés à naviguer sur les questions liées au
+                    handicap au travail et à trouver des solutions pour
+                    créer un environnement de travail plus inclusif.
+                </p>
+            </div>
+            <div id="containerImg"><img id="imgReunion" src="imgReunion.PNG" alt="img d'une réunion"/></div>
+        </div>
+            
+    </header>
+    <main class="container">
+        <div class="boxCentrale shadow box b1"><a href="#"><p class="colorText">qu'est-ce qu'une entreprise adaptée</p></a></div>
+        <div class="boxCentrale shadow box b2"><a href="#"><p class="colorText">le role du référent handicap</p></a></div>
+        <div class="boxCentrale shadow box b3"><a href="#"><p class="colorText">méthode d'intégration</p></a></div>
+        <div class="boxCentrale shadow box b4"><a href="#"><p class="colorText">particularité du recrutement</p></a></div>
+        <h2 id="titreCentral">découvrez nos conseils</h2>
+        <div class="boxCentrale shadow box b5"><a href="#"><p class="colorText">le maintien dans l'emploi</p></a></div>
+        <div class="boxCentrale shadow box b6"><a href="#"><p class="colorText">l'oeth</p></a></div>
+        <div class="boxCentrale shadow box b7"><a href="#"><p class="colorText">le handicap au travail</p></a></div>
+        <div class="boxCentrale shadow box b8"><a href="#"><p class="colorText">le handicap</p></a></div>
+        <div class="graphic"><img id="camembert" src="camembert.PNG" alt="statistiques avec camembert graphique"/></div>
+    </main>
+    <footer>
+        <div id="contact" class="downLeft">
+            <h2 id="sansSerif">CONTACTEZ NOUS</h2>
+            <p>80 Route des Lucioles</p>
+            <p>Les Espaces de Sophia</p>
+            <p>Batiment K</p>
+            <p>06560 VALBONNE</p>
+            <p id="tel">Tél: 05 62 74 10 00</p>
+            <p><a id="lienDsi" href="accueil@dsi-ap.com">accueil@dsi-ap.com</a></p>
+            <div id="iconContainer">
+                <div><a class="icon" href="https://www.facebook.com/distributionservicesindustrielsmed/"><i class="fa-brands fa-facebook-f"></i></a></div>
+                <div id="spaceIcon"><a class="icon" href="https://twitter.com/DsiMediterranee"><i class="fa-brands fa-twitter"></i></a></div>
+                <div><a class="icon" href="https://fr.linkedin.com/company/dsi-m%C3%A9diterran%C3%A9e-entreprise-adapt%C3%A9e-et-solidaire"><i class="fa-brands fa-linkedin-in"></i></a></div>
+            </div>
+        </div>
+        <div id="ligneSeparator"><span></span></div>
+        <div id="formulaire" class="downRight">
+            <form method="post" action="traitement.php">
+                <div class="group"><label for="name">Nom Prénom</label>
+                    <input type="text" name="" id="name"></div>
+                <div class="group"><label for="entreprise">Entreprise</label>
+                    <input type="text" name="" id="entreprise"></div>
+                <div class="group"><label for="mail">Email</label>
+                    <input type="text" name="" id="mail"></div>
+                <div class="group"><input class="button" type="submit" value="Envoyer"></div>
+            </form>
+        </div>
+    </footer> -->
+</body>
+<!-- <script>
+        const burger = document.querySelector("#toggle")
+        const navLinks = document.querySelector(".nav-links")
+
+        burger.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script> -->
+
+</html>
